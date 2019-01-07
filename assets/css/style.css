@@ -18,21 +18,19 @@ img{
     float:left;
     padding:10px;
 }
-#name{
+#row1{
     background:teal;
     font-size: 15px;
     width:200px;
-    margin-top:10px;
-    margin-left:50px;
+    margin-top:-50px;
+    margin-left:500px;
     color:white;
     text-indent:50px;
-    
 }
-ul{
-    float:right;
+.links{
+    float:left;
     color:grey;
-    margin-top:-30px;
-    margin-right:1385px;
+    
 }
 
 #aboutMe, #contact, #portfolio{
@@ -61,24 +59,16 @@ p{
     width:100%;
 }
 
-#triviaGamePic{
-    background-image:url("../images/TriviaGame.png");
-    background-size: contain;
-    background-repeat:no-repeat;
-    margin-top:30px;
-    width: 120px;
-    height: 120px;
-
-    
-}
-#triviaGame{
+#gameName{
     background:teal;
     color:white;
     text-align: center;
     width:200px;
     margin-top:-110px;
+    margin-left:100px
     
 }
+
 footer{
     background-color:#666666;
     width:1160px;
