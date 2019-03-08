@@ -1,81 +1,136 @@
-#Background{
-    background-image: url("../images/ep_naturalwhite.png");
-    width:1060px;
-    height:353px;
-}
-
-div{
-    width: 960px;
-    height:250px;
-    padding: 50px;
-        /* Add a border to every `<div>` element */
-    
-    margin-top:-10px;
-    background-color:white;
-}
-img{
-    width:200px;
-    float:left;
-    padding:10px;
-}
-#row1{
-    background:teal;
-    font-size: 15px;
-    width:200px;
-    margin-top:-50px;
-    margin-left:500px;
-    color:white;
-    text-indent:50px;
-}
-.links{
-    float:left;
-    color:grey;
-    
-}
-
-#aboutMe, #contact, #portfolio{
-margin-top:-10px;
-color:teal;
-}
-
-p{
-    padding:10px;
-}
-
-#name{
-    margin-top:10px;
-}
-
-#textname{
-    height:20px;
-    width:100%;
-}
-#message{
-    height:100px;
-    width:100%;
-}
-#email{
-    height:20px;
-    width:100%;
-}
-
-#gameName{
-    background:teal;
-    color:white;
-    text-align: center;
-    width:200px;
-    margin-top:-110px;
-    margin-left:100px
-    
-}
-
-footer{
-    background-color:#666666;
-    width:1160px;
-    text-align:center;
-    border-top: 5px solid teal;
-
-}
+ @import "960_12_col.css";
 body{
+    background-image:url("../images/Screen\ Shot\ 2019-03-03\ at\ 5.58.41\ PM.png");
     color:#777777;
 }
+#container{
+    height:500px;
+    margin-top:200px;
+    background-image:url("../images/dark-paths.png")
+}
+#containerportfolio{
+    height:1000px;
+    margin-top:200px;
+    background-image:url("../images/dark-paths.png");
+}
+
+h1{
+    width:200px;
+    padding:50px;
+    border-radius:10px;
+    border: 1px solid #777777;
+}
+h1:hover{
+    opacity:0.5;
+}
+#navlinks{
+   
+    padding-left:10px;
+    padding-right:10px;
+    height:37px;
+    position:relative;
+    top:-67px;
+    left: 500px;
+}
+.gitcat{
+    position:relative;
+    top:-50px;
+    left:135px;
+}
+.gitcat:hover{
+    border: 1px ridge grey;
+}
+li{
+    display: inline;
+    padding:10px;
+    margin-right:20px;
+
+}
+li:hover{
+    background-color:rgb(38, 100, 129);
+    border: 1px solid #666363;
+    border-radius:5px;
+}
+a{
+text-decoration: none;
+color:#777777;
+}
+
+#Name{
+    margin-left:50px;
+    padding:10px;
+}
+#Header{
+    width:960px;
+    margin-left:0px;
+    margin-right:0px;
+    background-image:url("../images/Screen\ Shot\ 2019-03-03\ at\ 5.58.41\ PM.png");
+    height:79px;
+    opacity:.7;
+    border-bottom: 1px solid #777777;
+}
+
+#aboutme, #portfolio{
+    text-align:center;
+    color:#5c5858;
+    border-bottom:1px ridge #3f3a3a;
+}
+#aboutmetitle{
+    float:left;
+}
+.socialmedialogo{
+    padding-top:5px;
+    margin: 0px 10px;
+}
+.logoimage:hover{
+    width:27px;
+    height:27px;
+}
+
+h2{
+    padding-left:50px;
+}
+
+#profilepic{
+    margin-top:50px;
+    border-radius:50%;
+    float:left;
+    margin-left:60px;
+    margin-right:20px;
+}
+.portfoliopic{
+    margin-top:50px;
+    float:left;
+    margin-left:60px;
+    margin-right:20px;
+}
+.portfoliopic:hover{
+    border-radius:100%;
+    opacity:0.5;
+}
+#profilepic:hover{
+    opacity:0.5;
+}
+.portfoliocontainer{
+    height:250px;
+}
+
+#introduction{
+    margin-top:20px;
+}
+
+#footer{
+    text-align:center;
+    width:960px;
+    height:40px;
+    margin-left:0px;
+    margin-right:0px;
+    background-image:url("../images/Screen\ Shot\ 2019-03-03\ at\ 5.58.41\ PM.png");
+    opacity:.7;
+    margin-top:95px;
+}
+#copyright{
+    margin-top:15px;
+    font-size:0.7em;
+}
+
