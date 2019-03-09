@@ -32,6 +32,12 @@ h1:hover{
     top:-67px;
     left: 500px;
 }
+#bidadieu{
+    margin-top:50px;
+}
+#email{
+    font-weight:bold;
+}
 .gitcat{
     position:relative;
     top:-50px;

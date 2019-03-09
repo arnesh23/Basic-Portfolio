@@ -1,42 +1,50 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-  </head>
-  <body >
-      <h1 id="name"> Arnesh Regmi</h1>
-      <ul>
-       <a href = "./index.html"class = 'links'taget="_blank">About</a> 
-       <a href = "./portfolio.html"class = 'links' taget="_blank">Portfolio</a> 
-       <a href = "./contact.html" class = 'links'taget="_blank">Contact</a>  
-     </ul>
-    <div id="Background">
-    <div id="contactForm">
-        
-      <h3 id="contact"> Contact</h3>
-      <hr>
-    
-      <label for="name">Name</label> <br>
-      <input type="text" id="textname" name="fullName" placeholder="John Doe">
-        <br>
-      <label for="email">Email Address</label> <br>
-      <input type="text" id="email" name="emailadd" placeholder="example@gmail.com">
-        <br>
-  
-      <label for="message">Message</label><br>
-      <textarea id="message" name="message" placeholder="Type your Message Here!!" ></textarea>
-        <br>
-      <input type="submit" value="Submit">
-    
-  </div>
-</div>
-<footer>
-        <p>© Copyright</p>
-    </footer> 
-    
 
-  
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+</head>
+
+
+
+<body>
+  <div class="container_12" id="container">
+    <div class="grid_12" id="Header">
+      <h1 id="Name">Arnesh Regmi </h1>
+      <div class="grid_5" id="navlinks">
+        <ul class="nav">
+          <li> <a href="index.html">About </a></li>
+          <li> <a href="portfolio.html">Portfolio </a></li>
+          <li> <a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="grid_12" id="aboutme">
+      <h2>Contact Me <span class="socialmedialogo">
+          <a href="https://www.linkedin.com/in/arnesh-regmi-684b85107/"><img class="logoimage" src=" assets/images/linkedin.png"
+              alt="linkedIn" width="25px" height="25px" /></a>
+          <a href="https://github.com/arnesh23"><img class="logoimage" src="assets/images/git.jpg" alt="gitCat" width="25px"
+              height="25px" /></a>
+        </span>
+      </h2>
+    </div>
+    <div class="grid_5">
+      <img id="profilepic" src="assets/images/image.jpeg" alt="profilepic" />
+    </div>
+    <div class="grid_7" id="bidadieu">
+      <p>Thank you for visiting my website! Please feel free to contact me via LinkedIn/Github.
+        <p>You can also reach me by email through <span id="email">arnesh23@gmail.com</span></p>
+    </div>
+    <div class="grid_12" id="footer">
+      <p id="copyright">Copyright &copy; Arnesh Regmi <span id="copyrightdate"></span></p>
+      </footer>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+</body>
+
 </html>
