@@ -104,15 +104,16 @@ h2{
     margin-left:60px;
     margin-right:20px;
 }
-.portfoliopic:hover{
-    border-radius:100%;
-    opacity:0.5;
-}
+
 #profilepic:hover{
-    opacity:0.5;
+    opacity:0.9;
 }
 .portfoliocontainer{
     height:250px;
+}
+.portfoliopic:hover{
+    border:2px solid #666363;
+    border-radius:50%;
 }
 
 #introduction{
